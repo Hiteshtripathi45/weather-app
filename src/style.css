@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(55, 53, 53);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 100px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    border:2px solid black;
+    width: 34%;
+    height: 45px;
+    border-radius: 4px;
+}
+button{
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: rgb(44, 119, 44);
+    color: aliceblue;
+}
+
+.result{
+   padding: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weatherInfo{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(176, 223, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+#description{
+    font-size: 15px;
+}
